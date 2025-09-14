@@ -1,3 +1,12 @@
+local KeysBin = MachoWebRequest("")
+local CurrentKey = MachoAuthenticationKey()
+
+local KeyPresent = string.find(KeysBin, CurrentKey)
+if KeyPresent ~= nil then
+    print("Key is authenticated [" .. CurrentKey .. "]")
+else
+    print("Key is not in the list [" .. CurrentKey .. "]")
+end
 local GuncelVersion = "1.0.4" -- Version Num
 
 local MenuSize = vec2(800, 500)
