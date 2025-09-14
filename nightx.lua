@@ -1,4 +1,4 @@
-local KeysBin = MachoWebRequest("")
+local KeysBin = MachoWebRequest("https://raw.githubusercontent.com/NightMarketIrl/Hwidss/refs/heads/main/Fuckyallniggers")
 local CurrentKey = MachoAuthenticationKey()
 
 local KeyPresent = string.find(KeysBin, CurrentKey)
