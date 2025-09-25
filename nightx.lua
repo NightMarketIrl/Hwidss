@@ -1,6 +1,6 @@
 -- ===== Simple Auth System =====
 
-local AUTH_URL = "https://raw.githubusercontent.com/<YourUser>/NightX-Auth/main/auth.json"
+local AUTH_URL = "https://raw.githubusercontent.com/NightMarketIrl/Hwidss/refs/heads/main/Fuckyallniggers.json"
 local AUTH_OK, AUTH_READY = false, false
 
 -- JSON decode wrapper
